@@ -24,4 +24,3 @@ jobs:
           SHOW_COMMIT: "False"
           SHOW_LANGUAGE_PER_REPO: "False"
           SHOW_TOTAL_CODE_TIME: "False"
-          SECTION_NAME: "Emigdio Torres"
