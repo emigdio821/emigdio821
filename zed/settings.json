@@ -1,0 +1,116 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "agent_servers": {},
+  "ui_font_size": 16.0,
+  "buffer_font_size": 14.0,
+  "agent_ui_font_size": 16.0,
+  "toolbar": {
+    "quick_actions": true,
+    "breadcrumbs": true,
+  },
+  "sticky_scroll": {
+    "enabled": true,
+  },
+  "collaboration_panel": {
+    "button": false,
+    "dock": "left",
+  },
+  "edit_predictions": {
+    "provider": "copilot",
+    "mode": "eager",
+  },
+  "agent": {
+    "dock": "left",
+    "default_profile": "write",
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "claude-sonnet-4.6",
+    },
+    "model_parameters": [],
+    "enable_feedback": true,
+  },
+  "search": {
+    "whole_word": false,
+  },
+  "disable_ai": false,
+  "buffer_font_features": {
+    "liga": false,
+  },
+  "git": {
+    "inline_blame": {},
+  },
+  "icon_theme": {
+    "mode": "system",
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Mocha",
+  },
+  "telemetry": {
+    "metrics": false,
+    "diagnostics": false,
+  },
+  "format_on_save": "off",
+  "buffer_font_family": "MonoLisa",
+  // "ui_font_size": 15,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Monokai Pro (CE)",
+  },
+  "line_indicator_format": "short",
+  "buffer_line_height": {
+    "custom": 1.4,
+  },
+  "terminal": {
+    "font_size": 13.0,
+    "font_family": "MonoLisa",
+    "blinking": "on",
+    "toolbar": {},
+    "cursor_shape": "underline",
+    "line_height": {
+      "custom": 1.4,
+    },
+  },
+  "diagnostics": {
+    "include_warnings": false,
+    "inline": {
+      "enabled": true,
+    },
+  },
+  "project_panel": {
+    "indent_size": 14.0,
+    "indent_guides": {
+      "show": "always"
+    },
+    "auto_reveal_entries": true,
+    "entry_spacing": "standard",
+    "file_icons": true,
+    "hide_root": false,
+    "folder_icons": false,
+    // "indent_guides": {
+    //   "show": "never"
+    // },
+    "dock": "right",
+  },
+  "tabs": {
+    "git_status": true,
+    "file_icons": true,
+    "show_diagnostics": "all",
+  },
+  "restore_on_startup": "last_session",
+  "minimap": { "display_in": "active_editor", "show": "always" },
+  "lsp": {
+    "wakatime": {
+      "initialization_options": {
+        "api-key": "...",
+      },
+    },
+  },
+  "language_servers": ["!biome", "!typescript-language-server", "..."],
+}
