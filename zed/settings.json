@@ -7,8 +7,11 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "agent_servers": {},
-  "ui_font_size": 16.0,
+  "agent_servers": {
+    "claude-acp": {
+      "type": "registry",
+    },
+  },
   "buffer_font_size": 14.0,
   "agent_ui_font_size": 16.0,
   "toolbar": {
@@ -48,8 +51,8 @@
   },
   "icon_theme": {
     "mode": "system",
-    "light": "Catppuccin Latte",
-    "dark": "Catppuccin Mocha",
+    "light": "Flow Deep Light",
+    "dark": "Flow Deep",
   },
   "telemetry": {
     "metrics": false,
@@ -57,7 +60,6 @@
   },
   "format_on_save": "off",
   "buffer_font_family": "MonoLisa",
-  // "ui_font_size": 15,
   "theme": {
     "mode": "system",
     "light": "One Light",
@@ -72,6 +74,9 @@
     "font_family": "MonoLisa",
     "blinking": "on",
     "toolbar": {},
+    "font_features": {
+      "liga": false,
+    },
     "cursor_shape": "underline",
     "line_height": {
       "custom": 1.4,
@@ -84,18 +89,16 @@
     },
   },
   "project_panel": {
+    "diagnostic_badges": true,
     "indent_size": 14.0,
     "indent_guides": {
-      "show": "always"
+      "show": "always",
     },
     "auto_reveal_entries": true,
     "entry_spacing": "standard",
     "file_icons": true,
     "hide_root": false,
     "folder_icons": false,
-    // "indent_guides": {
-    //   "show": "never"
-    // },
     "dock": "right",
   },
   "tabs": {
