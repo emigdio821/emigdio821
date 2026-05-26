@@ -7,11 +7,15 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "completion_menu_item_kind": "symbol",
+  "cli_default_open_behavior": "new_window",
+  "agent_buffer_font_size": 14.0,
+  "ui_font_size": 16.0,
   "outline_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "git_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "diff_view_style": "split",
   "agent_servers": {
@@ -119,11 +123,16 @@
   "restore_on_startup": "last_session",
   "minimap": { "display_in": "active_editor", "show": "always" },
   "lsp": {
+    "biome": {
+      "settings": {
+        "require_config_file": true
+      }
+    },
     "wakatime": {
       "initialization_options": {
         "api-key": "...",
       },
     },
   },
-  "language_servers": ["!biome", "!typescript-language-server", "..."],
+  "language_servers": ["!biome", "!oxlint", "!oxfmt", "!typescript-language-server", "..."],
 }
