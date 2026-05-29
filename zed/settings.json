@@ -9,8 +9,6 @@
 {
   "completion_menu_item_kind": "symbol",
   "cli_default_open_behavior": "new_window",
-  "agent_buffer_font_size": 14.0,
-  "ui_font_size": 16.0,
   "outline_panel": {
     "dock": "left",
   },
@@ -24,7 +22,6 @@
     },
   },
   "buffer_font_size": 14.0,
-  "agent_ui_font_size": 16.0,
   "toolbar": {
     "quick_actions": true,
     "breadcrumbs": true,
