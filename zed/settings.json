@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "cursor_shape": "block",
   "completion_menu_item_kind": "symbol",
   "cli_default_open_behavior": "new_window",
   "outline_panel": {
@@ -15,18 +16,18 @@
   "git_panel": {
     "dock": "left",
   },
-  "cursor_shape": "block",
+  "base_keymap": "VSCode",
   "diff_view_style": "split",
   "agent_servers": {
     "claude-acp": {
       "default_config_options": {
+        "effort": "high",
         "mode": "acceptEdits",
         "model": "opus",
       },
       "type": "registry",
     },
   },
-  "base_keymap": "VSCode",
   "buffer_font_size": 14.0,
   "toolbar": {
     "quick_actions": true,
@@ -106,6 +107,7 @@
     },
   },
   "project_panel": {
+    "folder_indicator": "chevron",
     "hide_hidden": false,
     "diagnostic_badges": true,
     "indent_size": 14.0,
@@ -116,7 +118,6 @@
     "entry_spacing": "standard",
     "file_icons": true,
     "hide_root": false,
-    "folder_icons": false,
     "dock": "right",
     "git_status_indicator": true,
   },
@@ -127,6 +128,7 @@
   },
   "restore_on_startup": "last_session",
   "minimap": { "display_in": "active_editor", "show": "always" },
+  "extend_comment_on_newline": false,
   "lsp": {
     "biome": {
       "settings": {
