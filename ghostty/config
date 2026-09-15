@@ -1,0 +1,20 @@
+# fonts
+font-size = 13
+font-style = medium
+bold-is-bright = true
+font-family = MonoLisa
+font-feature = -calt, -liga, -dlig
+
+# theme
+theme = dark:Monokai Pro,light:Monokai Pro Light
+shell-integration-features = no-cursor
+
+# cursor
+cursor-style = block
+cursor-style-blink = true
+
+# window
+window-padding-x = 8
+window-padding-y = 4
+macos-titlebar-style = native
+gtk-titlebar-style = native
