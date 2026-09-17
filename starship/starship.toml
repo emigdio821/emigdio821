@@ -17,9 +17,9 @@ add_newline = false
 [directory]
 
 [character]
-success_symbol = "[❯](yellow)"
-error_symbol = "[❯](red)"
-vimcmd_symbol = "[❮](green)"
+success_symbol = "[↳](yellow)"
+error_symbol = "[↳](red)"
+vimcmd_symbol = "[↳](green)"
 
 [git_branch]
 format = "[$symbol$branch(:$remote_branch)]($style) "
