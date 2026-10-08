@@ -23,7 +23,7 @@ error_symbol = "[↪](red)"
 vimcmd_symbol = "[↪](green)"
 
 [git_branch]
-format = "[$symbol$branch(:$remote_branch)]($style) "
+format = "[$branch(:$remote_branch)]($style) "
 
 [git_status]
 
